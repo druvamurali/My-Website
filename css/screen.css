@@ -7,3 +7,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+html {
+  font-size: 22px; /* 22 / 16 = 1.375em */
+  line-height: 26.4px; /* 1.2 * 22 = 27.6px */
+}
