@@ -8,7 +8,31 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
+/*
+
+Base font-size: 22px;
+Base line-height: 26.4px;
+Modularscale: https://www.modularscale.com/?22&px&1.2
+
+*/
 html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px; /* 22 / 16 = 1.375em */
   line-height: 26.4px; /* 1.2 * 22 = 27.6px */
+}
+
+h1,
+h2,
+h3,
+p {
+  padding-bottom: 26.4px;
+}
+
+h1 {
+  font-size: 31.68px;
+  line-height: 39.6px; /* 26.4px * 1.5 = 39.6px */
+}
+
+a {
+  text-decoration: none;
 }
