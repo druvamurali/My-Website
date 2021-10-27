@@ -36,7 +36,9 @@ a {
   text-decoration: none;
 }
 
-
+.footer {
+  padding-top: 28px;
+}
 
 /** A quick baseline grid overlay using css+svg. Inspired by [Basehold.it](https://basehold.it/). @author leshido */
 .g body { position: relative; }
