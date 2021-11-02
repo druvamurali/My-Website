@@ -111,3 +111,16 @@ figcaption {
     padding: 11px;
   }
 }
+
+/* CSS Styles for VRBlog page */
+
+html#vrblog {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em; /* 16 / 16 = 1em */
+  line-height: 1.125em; /* 18/16 = 1.125em */
+  color:black;
+  margin: 0.75em; /* 12/16 = 0.75em */
+  background-color: #fffafa;
+}
+
+/* CSS Styles for Resume page */
