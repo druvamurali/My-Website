@@ -87,3 +87,19 @@ h1 {
   padding-right: 11px;
   padding-bottom: 11px;
 }
+
+@media query screen and (min-width: 120px) {
+
+.header figure {
+  position: relative;
+  width: 50%;
+  padding: 11px;
+}
+
+figcaption {
+  position: absolute;
+  width: auto;
+  bottom: 0;
+  padding: 22px;
+}
+}
