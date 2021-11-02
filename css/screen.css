@@ -190,3 +190,96 @@ html#resume {
   margin: 0.75em; /* 12/16 = 0.75em */
   background-color: #fffafa;
 }
+
+
+.introduction {
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.academics {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+  list-style-type: disc;
+}
+
+.universities {
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.skills {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.work {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.company {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-right: 11px;
+}
+
+.title {
+  font-weight: normal;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 11px;
+}
+
+.duration {
+  font-weight: normal;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+
+.description  {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.certification {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
