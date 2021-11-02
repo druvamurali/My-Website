@@ -103,3 +103,11 @@ figcaption {
   padding: 22px;
 }
 }
+
+@media screen and (min-width:450px) {
+  .header figure {
+    width: 50%;
+    float:left;
+    padding: 11px;
+  }
+}
