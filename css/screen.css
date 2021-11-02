@@ -123,4 +123,58 @@ html#vrblog {
   background-color: #fffafa;
 }
 
+.rossi {
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.info {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.career {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.year {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.awards {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.references {
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+ }
+
 /* CSS Styles for Resume page */
