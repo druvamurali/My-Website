@@ -42,3 +42,48 @@ figcaption {
 a {
   text-decoration: none;
 }
+
+h1 {
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.header figure {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.brief {
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.education {
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+.extracurricular {
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.sports {
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.connection {
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
+
+.footer {
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-bottom: 11px;
+}
