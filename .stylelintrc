@@ -1,6 +1,6 @@
 {
 
-  # Stolley House Config, v. 2.0.0, 20201007
+  # Stolley House Config, v. 3.0.0, 20211102
 
   "rules": {
     "at-rule-name-case": "lower",
@@ -24,7 +24,6 @@
     "declaration-no-important": true,
     "font-family-name-quotes": "always-where-recommended",
     "font-family-no-missing-generic-family-keyword": true,
-    "function-calc-no-invalid": true,
     "function-calc-no-unspaced-operator": true,
     "indentation": 2,
     "length-zero-no-unit": true,
