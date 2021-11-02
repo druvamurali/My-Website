@@ -37,6 +37,8 @@ img {
 figcaption {
   color: orange;
   background: rgba(10, 10, 40, 0.8);
+  overflow:hidden;
+  text-align: center;
 }
 
 a {
@@ -83,6 +85,7 @@ h1 {
 }
 
 .footer {
+  font-weight: bold;
   padding-top: 11px;
   padding-right: 11px;
   padding-bottom: 11px;
@@ -176,3 +179,14 @@ html#vrblog {
   padding-right: 11px;
   padding-bottom: 11px;
  }
+
+/* CSS Styles for Resume page */
+
+html#resume {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em; /* 16 / 16 = 1em */
+  line-height: 1.125em; /* 18/16 = 1.125em */
+  color: black;
+  margin: 0.75em; /* 12/16 = 0.75em */
+  background-color: #fffafa;
+}
