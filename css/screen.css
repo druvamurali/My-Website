@@ -31,79 +31,47 @@ html {
 
 img {
   display: block;
-  max-width: 100%;
+  max-width:100%;
+  padding-top: 11px;
 }
 
 figcaption {
   color: orange;
   background: rgba(10, 10, 40, 0.8);
-  overflow:hidden;
-  text-align: center;
 }
 
 a {
   text-decoration: none;
 }
-
-h1 {
+h1,
+h2,
+h3,
+.footer {
   padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
 }
-
-.header figure {
-  padding-top: 11px;
-  padding-bottom: 11px;
-}
-
-.brief {
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-.education {
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-.extracurricular {
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-.sports {
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-.connection {
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
+h1,
+h2,
+h3,
 .footer {
   font-weight: bold;
-  padding-top: 11px;
   padding-right: 11px;
   padding-bottom: 11px;
 }
 
-@media query screen and (min-width: 120px) {
+@media screen and (min-width: 110px) {
 
 .header figure {
   position: relative;
-  width: 50%;
-  padding: 11px;
+  width: 100%;
+
 }
 
 figcaption {
-  position: absolute;
+  position: static;
   width: auto;
-  bottom: 0;
-  padding: 22px;
+  overflow:hidden;
+  text-align: center;
+  padding: 1px;
 }
 }
 
@@ -111,175 +79,7 @@ figcaption {
   .header figure {
     width: 50%;
     float:left;
-    padding: 11px;
+    padding-right: 16px;
+    padding-bottom: 10px;
   }
-}
-
-/* CSS Styles for VRBlog page */
-
-html#vrblog {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em; /* 16 / 16 = 1em */
-  line-height: 1.125em; /* 18/16 = 1.125em */
-  color:black;
-  margin: 0.75em; /* 12/16 = 0.75em */
-  background-color: #fffafa;
-}
-
-.rossi {
-  font-weight: bolder;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-.info {
-  font-weight: bold;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-.career {
-  font-weight: bold;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-.year {
-  font-weight: bold;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-.awards {
-  font-weight: bold;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-.references {
-  font-weight: bold;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
- }
-
-/* CSS Styles for Resume page */
-
-html#resume {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em; /* 16 / 16 = 1em */
-  line-height: 1.125em; /* 18/16 = 1.125em */
-  color: black;
-  margin: 0.75em; /* 12/16 = 0.75em */
-  background-color: #fffafa;
-}
-
-
-.introduction {
-  font-weight: bolder;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-.navigation {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-.academics {
-  font-weight: bold;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-  list-style-type: disc;
-}
-
-.universities {
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-.skills {
-  font-weight: bold;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-.work {
-  font-weight: bold;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-.company {
-  font-weight: bold;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 11px;
-  padding-right: 11px;
-}
-
-.title {
-  font-weight: normal;
-  display: flex;
-  flex-wrap: wrap;
-  padding-right: 11px;
-}
-
-.duration {
-  font-weight: normal;
-  display: flex;
-  flex-wrap: wrap;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-
-.description  {
-  font-weight: bold;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
-}
-
-.certification {
-  font-weight: bold;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-bottom: 11px;
 }
