@@ -40,6 +40,12 @@ figcaption {
   color: orange;
 }
 
+#activities li,
+#sports li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
 a {
   text-decoration: none;
 }
@@ -55,12 +61,6 @@ h4,
   padding-bottom: 0.6111em; /* 11/18 = 0.6111em */
   padding-top: 0.6111em; /* 11/18 = 0.6111em */
   padding-right: 0.6111em; /* 11/18 = 0.6111em */
-}
-
-#activities li,
-#sports li {
-  list-style-type: disc;
-  list-style-position: inside;
 }
 
 @media screen and (min-width: 9.375em) { /* 150/16 = 9.375em */
