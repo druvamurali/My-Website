@@ -63,12 +63,32 @@ h4,
   padding-right: 0.6111em; /* 11/18 = 0.6111em */
 }
 
+
+/* CSS Styles for Resume page */
+
+html#resume {
+  color: black;
+  background-color: white;
+}
+
+#universities li,
+#skills li,
+#amazon li,
+#dell li,
+#hpi li,
+#hpe li,
+#certification li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
 @media screen and (min-width: 9.375em) { /* 150/16 = 9.375em */
 
   .header figure {
     position: relative;
     width: 100%;
   }
+
 
   figcaption {
     overflow: hidden;
