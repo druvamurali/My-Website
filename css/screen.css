@@ -26,7 +26,7 @@ html {
   font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.125em; /* 18/16 = 1.125em */
   line-height: 1.333em; /* 24/18 = 1.333em */
-  margin: 0.555em; /* 10/18 = 0.555em */
+  margin: 10px; /* 10/18 = 0.555em */
 }
 
 img {
@@ -63,6 +63,14 @@ h4,
   text-decoration: underline;
 }
 
+#navigation li {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.title {
+  text-decoration: none;
+}
 
 /* CSS Styles for Resume page */
 
@@ -89,7 +97,7 @@ html#resume {
   list-style-position: inside;
 }
 
-@media screen and (min-width: 9.375em) { /* 150/16 = 9.375em */
+@media screen and (min-width: 220px) { /* 220/16 = 13.75em */
 
   .header figure,
   .portrait figure {
@@ -106,7 +114,7 @@ html#resume {
   }
 }
 
-@media screen and (min-width: 28.125em) {  /* 450/16 = 28.125em */
+@media screen and (min-width: 36.875em) {  /* 590/16 = 36.875em */
 
   .header figure,
   .portrait figure {
