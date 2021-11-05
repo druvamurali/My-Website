@@ -30,7 +30,7 @@ html {
 }
 
 img {
-  display: inline-block;
+  display: block;
   max-width: 100%;
   padding-top: 0.6111em; /* 11/18 = 0.6111em */
   vertical-align: top;
