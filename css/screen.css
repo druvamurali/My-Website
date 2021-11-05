@@ -70,6 +70,7 @@ h4,
 
 .title {
   text-decoration: none;
+  padding-left: 8px;
 }
 
 #navigation a {
@@ -141,7 +142,7 @@ html#resume {
   .header figure,
   .portrait figure {
     float: left;
-    padding-left: 0.888em; /* 16/18 = 0.888em */
+    padding-left: 0.555em; /* 10/18 = 0.888em */
     padding-bottom: 0.555em; /* 10/18 = 0.555em */
     padding-right: 0.888em; /* 16/18 = 0.888em */
     width: 50%;
