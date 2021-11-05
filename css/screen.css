@@ -30,24 +30,23 @@ html {
 }
 
 img {
-  display: block;
+  display: inline-block;
   max-width: 100%;
   padding-top: 0.6111em; /* 11/18 = 0.6111em */
+  vertical-align: top;
 }
 
-figcaption {
+.header figcaption {
   background: rgba(10, 10, 40, 0.8);
   color: orange;
+  text-align: center;
+  width: 100%;
 }
 
 #activities li,
 #sports li {
   list-style-type: disc;
   list-style-position: inside;
-}
-
-a {
-  text-decoration: none;
 }
 
 h1,
@@ -61,6 +60,7 @@ h4,
   padding-bottom: 0.6111em; /* 11/18 = 0.6111em */
   padding-top: 0.6111em; /* 11/18 = 0.6111em */
   padding-right: 0.6111em; /* 11/18 = 0.6111em */
+  text-decoration: underline;
 }
 
 
@@ -69,6 +69,13 @@ h4,
 html#resume {
   color: black;
   background-color: white;
+}
+
+.portrait figcaption {
+  background: #191970;
+  color: white;
+  text-align: center;
+  width: 100%;
 }
 
 #universities li,
@@ -84,13 +91,14 @@ html#resume {
 
 @media screen and (min-width: 9.375em) { /* 150/16 = 9.375em */
 
-  .header figure {
+  .header figure,
+  .portrait figure {
     position: relative;
     width: 100%;
   }
 
-
-  figcaption {
+  .portrait figcaption,
+  .header figcaption {
     overflow: hidden;
     position: static;
     text-align: center;
@@ -100,10 +108,16 @@ html#resume {
 
 @media screen and (min-width: 28.125em) {  /* 450/16 = 28.125em */
 
-  .header figure {
+  .header figure,
+  .portrait figure {
     float: left;
+    padding-left: 0.888em; /* 16/18 = 0.888em */
     padding-bottom: 0.555em; /* 10/18 = 0.555em */
     padding-right: 0.888em; /* 16/18 = 0.888em */
     width: 50%;
+  }
+
+  .portrait figure {
+    float: right;
   }
 }
