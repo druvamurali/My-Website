@@ -72,6 +72,21 @@ h4,
   text-decoration: none;
 }
 
+#navigation a {
+  text-decoration: none;
+  background-color: #E3E0CF;
+  display: block;
+  line-height: 0;
+  padding: 22px;
+  color: black;
+}
+
+#navigation a:hover,
+#navigation a:active,
+#navigation a:focus {
+  background-color: grey;
+}
+
 /* CSS Styles for Resume page */
 
 html#resume {
