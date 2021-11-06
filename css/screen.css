@@ -149,7 +149,7 @@ html#resume {
     padding-left: 0.555em; /* 10/18 = 0.888em */
     padding-bottom: 0.555em; /* 10/18 = 0.555em */
     padding-right: 0.888em; /* 16/18 = 0.888em */
-    width: 50%;
+    width: 100%;
   }
 
   .portrait figure {
