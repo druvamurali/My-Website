@@ -14,8 +14,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
    Modularscale: https://www.modularscale.com/?22&px&1.2
 */
 
-/* CSS Styles for About page */
-
+/* CSS Styles for Homepage */
 * {
   box-sizing: border-box;
 }
@@ -27,6 +26,24 @@ html {
   font-size: 1.125em; /* 18/16 = 1.125em */
   line-height: 1.333em; /* 24/18 = 1.333em */
   margin: 0.555em; /* 10/18 = 0.555em */
+}
+
+h1,
+h2,
+h3,
+h4,
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  padding-bottom: 0.6111em; /* 11/18 = 0.6111em */
+  padding-top: 0.6111em; /* 11/18 = 0.6111em */
+  padding-right: 0.6111em; /* 11/18 = 0.6111em */
+  text-decoration: underline;
+}
+
+.title {
+  text-decoration: none;
 }
 
 img {
@@ -49,36 +66,27 @@ img {
   list-style-position: inside;
 }
 
-h1,
-h2,
-h3,
-h4,
-.footer {
-  display: flex;
-  flex-wrap: wrap;
-  font-weight: bold;
-  padding-bottom: 0.6111em; /* 11/18 = 0.6111em */
-  padding-top: 0.6111em; /* 11/18 = 0.6111em */
-  padding-right: 0.6111em; /* 11/18 = 0.6111em */
-  text-decoration: underline;
-}
-
 #navigation li {
-  margin-top: 0.444em; /* 8/18 = 0.444em */
   margin-bottom: 0.444em; /* 8/18 = 0.444em */
-}
-
-.title {
-  text-decoration: none;
+  margin-top: 0.444em; /* 8/18 = 0.444em */
 }
 
 #navigation a {
-  text-decoration: none;
-  background-color: #E3E0CF;
+  background-color: #3d3d3d;
+  color: white;
   display: block;
   line-height: 0;
   padding: 1.222em;/* 22/18 = 1.222em */
+  text-decoration: none;
+}
+
+#footer-nav a {
+  background-color: #E3E0CF;
   color: black;
+  display: block;
+  line-height: 0;
+  padding: 1.222em;/* 22/18 = 1.222em */
+  text-decoration: none;
 }
 
 #navigation a:hover,
@@ -87,12 +95,19 @@ h4,
   background-color: grey;
 }
 
-/* CSS Styles for Resume page */
+
+#footer-nav a:hover,
+#footer-nav a:active,
+#footer-nav a:focus {
+  background-color: grey;
+}
+
+/* CSS Styles for Resume */
 
 html#resume {
-  color: black;
-  background-color: white;
+  background-color: #FFFFFF;
 }
+
 
 .portrait figcaption {
   background: #191970;
@@ -105,6 +120,11 @@ html#resume {
   font-weight: 500;
 }
 
+#contact,
+#footer-contact {
+  text-align: center;
+}
+
 #universities li,
 #skills li,
 #amazon li,
@@ -115,6 +135,12 @@ html#resume {
   list-style-type: disc;
   list-style-position: inside;
 }
+
+/* CSS Styles for VRBlog */
+html#vrblog {
+  background-color: #E3E0CF;
+}
+
 
 @media screen and (min-width: 13.75em) { /* 220/16 = 13.75em */
 
@@ -133,6 +159,7 @@ html#resume {
   }
 }
 
+
 @media screen and (min-width: 36.875em) {  /* 590/16 = 36.875em */
 
   #navigation ul {
@@ -142,11 +169,19 @@ html#resume {
     flex: 1 0 auto;
   }
 
+  #footer-nav ul {
+    display: flex;
+  }
+
+  #footer-nav ul > li {
+    flex: 1 0 auto;
+  }
+
   .header figure,
   .portrait figure {
     float: left;
-    padding-left: 0.555em; /* 10/18 = 0.888em */
     padding-bottom: 0.555em; /* 10/18 = 0.555em */
+    padding-left: 0.555em; /* 10/18 = 0.888em */
     padding-right: 0.888em; /* 16/18 = 0.888em */
     width: 50%;
   }
