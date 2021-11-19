@@ -171,20 +171,19 @@ html#vrblog {
 
 @media screen and (min-width: 13.75em) { /* 220/16 = 13.75em */
 
-  .header figure,
-  .portrait figure,
   .details figure,
-  .intro figure {
-    display: flex;
-    flex-flow: column;
+  .header figure,
+  .intro figure,
+  .portrait figure {
     position: relative;
     width: 100%;
   }
 
-  .portrait figcaption,
-  .header figcaption,
+
   .details figcaption,
-  .intro figcaption {
+  .header figcaption,
+  .intro figcaption,
+  .portrait figcaption {
     overflow: hidden;
     position: static;
     text-align: center;
@@ -197,8 +196,6 @@ html#vrblog {
 
   .details figure,
   .intro figure {
-    display: flex;
-    flex-flow: column;
     position: relative;
     width: 100%;
   }
@@ -230,10 +227,11 @@ html#vrblog {
     flex: 1 0 auto;
   }
 
+
+  .details figure,
   .header figure,
   .intro figure,
-  .portrait figure,
-  .details figure {
+  .portrait figure {
     float: left;
     padding-bottom: 0.555em; /* 10/18 = 0.555em */
     padding-left: 0.555em; /* 10/18 = 0.888em */
@@ -241,8 +239,8 @@ html#vrblog {
     width: auto;
   }
 
-  .portrait figure,
-  .details figure {
+  .details figure,
+  .portrait figure {
     float: right;
   }
 }
