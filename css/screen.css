@@ -159,18 +159,12 @@ html#vrblog {
 }
 
 
-.intro figcaption {
-  background: #191970;
-  color: white;
-  text-align: center;
-  width: 100%;
-}
-
+.intro figcaption,
 .details figcaption {
   background: #191970;
   color: white;
   text-align: center;
-  width: auto;
+  width: 100%;
 }
 
 
@@ -237,8 +231,9 @@ html#vrblog {
   }
 
   .header figure,
+  .intro figure,
   .portrait figure,
-  .intro figure {
+  .details figure {
     float: left;
     padding-bottom: 0.555em; /* 10/18 = 0.555em */
     padding-left: 0.555em; /* 10/18 = 0.888em */
@@ -249,9 +244,5 @@ html#vrblog {
   .portrait figure,
   .details figure {
     float: right;
-    padding-bottom: 0.555em; /* 10/18 = 0.555em */
-    padding-left: 0.555em; /* 10/18 = 0.888em */
-    padding-right: 0.888em; /* 16/18 = 0.888em */
-    width: auto;
   }
 }
