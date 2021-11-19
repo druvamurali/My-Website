@@ -28,7 +28,7 @@ html {
 }
 
 html#home {
-  background-color: #E3E0CF;
+  background-color: #E5E4E2;
 }
 
 h1,
@@ -75,7 +75,7 @@ img {
 }
 
 #footer-nav a {
-  background-color: #E3E0CF;
+  background-color: #E5E4E2;
   color: black;
   display: block;
   line-height: 0;
@@ -86,6 +86,15 @@ img {
 #navigation a {
   background-color: #3d3d3d;
   color: white;
+  display: block;
+  line-height: 0;
+  padding: 1.222em;/* 22/18 = 1.222em */
+  text-decoration: none;
+}
+
+#references a {
+  background-color: #FFFF8F;
+  color: black;
   display: block;
   line-height: 0;
   padding: 1.222em;/* 22/18 = 1.222em */
@@ -123,7 +132,8 @@ html#resume {
 }
 
 #contact,
-#footer-contact {
+#footer-contact,
+#references {
   text-align: center;
 }
 
@@ -140,12 +150,20 @@ html#resume {
 
 /* CSS Styles for VRBlog */
 html#vrblog {
-  background-color: #FCF55F;
+  background-color: #FFFF8F;
 }
 
 #awards {
   list-style-type: disc;
   list-style-position: inside;
+}
+
+
+.intro figcaption {
+  background: #191970;
+  color: white;
+  text-align: center;
+  width: 100%;
 }
 
 .details figcaption {
@@ -156,20 +174,23 @@ html#vrblog {
 }
 
 
+
 @media screen and (min-width: 13.75em) { /* 220/16 = 13.75em */
 
   .header figure,
   .portrait figure,
-  .details figure {
-    position: relative;
+  .details figure,
+  .intro figure {
     display: flex;
     flex-flow: column;
+    position: relative;
     width: 100%;
   }
 
   .portrait figcaption,
   .header figcaption,
-  .details figcaption {
+  .details figcaption,
+  .intro figcaption {
     overflow: hidden;
     position: static;
     text-align: center;
@@ -180,14 +201,16 @@ html#vrblog {
 
 @media screen and (min-width: 21.875em) {  /* 350/16 = 21.875em */
 
-  .details figure {
-    position: relative;
+  .details figure,
+  .intro figure {
     display: flex;
     flex-flow: column;
+    position: relative;
     width: 100%;
   }
 
-  .details figcaption {
+  .details figcaption,
+  .intro figcaption {
     overflow: hidden;
     position: static;
     text-align: center;
@@ -214,7 +237,8 @@ html#vrblog {
   }
 
   .header figure,
-  .portrait figure {
+  .portrait figure,
+  .intro figure {
     float: left;
     padding-bottom: 0.555em; /* 10/18 = 0.555em */
     padding-left: 0.555em; /* 10/18 = 0.888em */
