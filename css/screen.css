@@ -175,6 +175,8 @@ html#vrblog {
   .header figure,
   .intro figure,
   .portrait figure {
+    display: flex;
+    flex-flow: column;
     position: relative;
     width: 100%;
   }
@@ -196,6 +198,8 @@ html#vrblog {
 
   .details figure,
   .intro figure {
+    display: flex;
+    flex-flow: column;
     position: relative;
     width: 100%;
   }
