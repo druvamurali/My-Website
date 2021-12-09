@@ -16,3 +16,20 @@ function homepageHeadingClick(event) {
   heading.innerText = 'Home: Druva';
   heading.className = 'is-clicked';
 }
+
+// Resume
+
+var h1 = document.querySelector('#resume h1');
+
+document.querySelector('html').className = 'js';
+
+if (h1) {
+  h1.addEventListener('click', resumeHeadingClick);
+}
+
+function resumeHeadingClick(event) {
+  console.log('Title was clicked to display Resume: Druva');
+  var heading = event.target;
+  heading.innerText = 'Resume: Druva Murali';
+  heading.className = 'is-clicked';
+}
