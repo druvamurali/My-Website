@@ -64,7 +64,7 @@ img {
 #activities li,
 #sports li {
   list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 #navigation li {
@@ -144,7 +144,7 @@ html#resume {
 #hpe li,
 #certification li {
   list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 /* CSS Styles for VRBlog */
@@ -155,7 +155,7 @@ html#vrblog {
 
 #awards {
   list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 
