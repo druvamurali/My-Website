@@ -37,6 +37,7 @@ h2,
 h3,
 h4,
 .footer {
+  cursor: pointer;
   display: flex;
   flex-wrap: wrap;
   font-weight: bold;
