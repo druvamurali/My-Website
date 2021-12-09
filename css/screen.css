@@ -44,11 +44,6 @@ h4,
   padding-bottom: 0.6111em; /* 11/18 = 0.6111em */
   padding-top: 0.6111em; /* 11/18 = 0.6111em */
   padding-right: 0.6111em; /* 11/18 = 0.6111em */
-  text-decoration: underline;
-}
-
-.title {
-  text-decoration: none;
 }
 
 img {
@@ -56,6 +51,7 @@ img {
   max-width: 100%;
   padding-top: 0.6111em; /* 11/18 = 0.6111em */
   vertical-align: top;
+  padding-right: 0.1111em; /* 2/18 = 0.1111em */
 }
 
 .header figcaption {
@@ -120,6 +116,7 @@ img {
 
 html#resume {
   background-color: #FFFFFF;
+  padding: 0.444em; /* 8/18 = 0.444em */
 }
 
 .portrait figcaption {
@@ -153,6 +150,7 @@ html#resume {
 /* CSS Styles for VRBlog */
 html#vrblog {
   background-color: #FFFF8F;
+  padding: 0.555em; /* 10/18 = 0.555em */
 }
 
 #awards {
