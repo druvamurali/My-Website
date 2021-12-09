@@ -25,6 +25,7 @@ html {
   font-size: 1.125em; /* 18/16 = 1.125em */
   line-height: 1.333em; /* 24/18 = 1.333em */
   margin: 0.555em; /* 10/18 = 0.555em */
+  padding: 0.444em; /* 8/18 = 0.444em */
 }
 
 html#home {
